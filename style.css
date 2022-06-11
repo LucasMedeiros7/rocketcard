@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+/* /////// GENERAL SETTINGS \\\\\\\ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #0E1218;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9.125rem;
+}
+
+/* /////// CARD SETTINGS \\\\\\\ */
+.backgroundCard {
+  padding: 1.5rem 0.938rem;
+  max-width: 27.375rem;
+  width: 100%;
+  border-radius: 3.125rem;
+  background-color: #8257E5;
+}
+
+.card {
+  max-width: 25.438rem;
+  width: 100%;
+  margin: auto;
+  border-radius: 3.125rem;
+  padding: 2.299rem 0rem 1.714rem 2.036rem;
+  background-color: #0E1218;
+  overflow: hidden;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1.153rem;
+}
+
+.user h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.profilePicture img {
+  display: block;
+  margin-left: auto;
+  border: 10px solid #8257E5;
+  height: 360px;
+  width: 360px;
+  border-radius: 300px;
+  object-fit: cover;
+  position: relative;
+  top: 55px;
+  right: -55px;
+}
+
+.infos {
+  width: 195.5px;
+  height: 195px;
+  background-color: #8257E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  position: relative;
+  left: -10px;
+  bottom: 80px;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #000000 1.65%, rgba(70, 69, 69, 0.17) 53.65%, rgba(62, 56, 56, 0.10) 100%);
+}
+
+.infos div {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 8px;
+}
+
+.btnChangeColor h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.btnChangeColor form {
+  display: flex;
+}
+
+.btnChangeColor input {
+  width: 200px;
+  padding-left: 10px;
+  background-color: #0E1218;
+  border: 1px solid #1A1A1A;
+  outline: none;
+  color: white;
+}
+
+.btnChangeColor button {
+  display: flex;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 870px){
+
+  body {
+    height: 120%;
+  }
+  .content {
+    flex-direction: column;
+    gap: 3.2rem;
+    padding: 50px;
+  }
+}
