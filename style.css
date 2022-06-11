@@ -19,7 +19,6 @@ body {
   color: #ffffff;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -129,11 +128,12 @@ footer {
 @media screen and (max-width: 870px){
 
   body {
-    height: 120%;
+    height: auto;
   }
   .content {
+    margin-top: 25px;
+    margin-bottom: 60px;
     flex-direction: column;
     gap: 3.2rem;
-    padding: 50px;
   }
 }
