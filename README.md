@@ -1,5 +1,7 @@
 # Rocketcard 🚀
 
+[![img-githuba.jpg](https://i.postimg.cc/xThyYnk4/img-githuba.jpg)](https://postimg.cc/XpKykMkf)
+
 ## 🏋️ Card para vizualizar seu perfil no Github. 
 Aplicação simples utilizando a API do GITHUB.
 Com o layout baseado no desafio da rocketseat, coloquei um pouco da minha identidade 
